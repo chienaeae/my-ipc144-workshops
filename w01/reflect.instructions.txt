@@ -1,0 +1,6 @@
+1. Do you have any previous programming experience? If so, what language(s)? If not, what are your initial 
+thoughts about the C language and this course? 
+ 
+2. Describe your understanding of the compiling process of turning a C text file into an executable program. 
+ 
+3. What do you hope to achieve in this course? Describe your goals and expectations. 

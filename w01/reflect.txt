@@ -1,0 +1,5 @@
+1. Yes, I have programming experience in TypeScript, Python, Go, and other languages. I have used TypeScript and Go to develop web applications, and Python for web scraping. Additionally, I also have experience with SQL for manipulating RDBMS.
+
+2. The process of compiling C language involves translating the source code into binary machine code and can be broken down into several stages. First, it preprocesses the source code, handling preprocessor directives. Second, it translates the processed source code into assembly code, specific to the target platform. Then, the compiler converts the assembly code into machine code, also known as object code. Finally, the compiler resolves dependencies, links these libraries, and combines all the object files into a single executable file, which is self-contained and ready to run.
+
+3. I hope to grasp some fundamental C language knowledge and skills, ranging from programming syntax to deeper insights, and to receive advice for my work. Having some experience, I expect this class to prepare me well for its advanced applications. I am capable of tackling more low-level tasks.

@@ -1,0 +1,40 @@
+Instruc7ons 
+Record your answer(s) to the reflec7on ques7on(s) in the provided “reflect.txt” text file 
+1. Execute the following code on your machine and record the result. 
+   
+   int a = 3;
+   a++;
+   printf("a = %d”,a);
+
+Then execute this code and record the result 
+   
+   int a = 3;
+   printf("a = %d”,a++);
+   
+  Compare the recorded results; what is the value of variable ‘a’ a;er the print func7on in each code snippet? 
+Explain the difference between the two of them and why they generated two different outputs.  
+
+
+2. Given the following C statements: 
+
+    float price1 = 24.96f, price3 = 24.97;
+    double price2 = 24.96, price4 = 24.97;  
+    printf("1. 24.96 = %f (as cents:%d)\n", price1, (int)(price1 * 100));
+    printf("2. 24.97 = %lf (as cents:%d)\n", price2, (int)(price2 * 100));
+    printf("3. 24.96 = %f (as cents:%d)\n", price3, (int)(price3 * 100));
+    printf("4. 24.97 = %lf (as cents:%d)\n", price4, (int)(price4 * 100));
+
+Execute the above sample code on your machine.  Briefly explain why price1 and the corresponding converted 
+cent value do not properly represent the intended value.  Why do you think all the other samples work as 
+expected? 
+
+3. Execute the below code on your machine: 
+
+    int result, money = 2031;
+    printf("1. $%.2lf\n", money / 100);
+    printf("2. $%d\n", money / 100);
+    printf("3. $%.2lf\n", (double)money / 100);
+    printf("4. $%d\n", (double)money / 100);
+    
+Explain why these three examples work as intended. Apply terms like cast, promoJon, coercion, implicit, and 
+explicit in your answer. 

@@ -1,0 +1,42 @@
+///////////////////////////////////////////////////////////////////////////
+                              Reflection
+                          Workshop - #3 (P2)
+Full Name  : Chia-Yu Chien
+Student ID#: 157049222
+Email      : cchien8@myseneca.ca
+Section    : NCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. 
+I created 9 variables to represent the 3 product. Organizing variables correctly 
+in a program enhances readability, maintainability, and the overall structure of 
+the code. Disorganized variable declarations can lead to confusion and a loss of 
+context in later stages of programming.
+
+2. 
+In the given expression example:
+    `p1Id != p2Id && p1Id != p3Id`
+
+This expression uses both `p1Id != p2Id` and `p1Id != p3Id` together with a logical 
+AND operator `&&` operator. It evaluates to true if both conditions are met, i.e., 
+p1Id is not equal to p2Id and p1Id is not equal to p3Id. Each relational expression 
+is evaluated separately, and the logical operator && then determines the overall 
+expression's truth value.
+
+3. 
+DeMorgan's Laws describe how to negate a combination of two conditions connected 
+by AND (&&) or OR (||) operators. For example, !(A && B) is logically equivalent 
+to !A || !B, and !(A || B) is equivalent to !A && !B.
+
+In the given code example:
+```
+printf("2. Are products 2 and 3 both NOT taxable (N)? -> %d\n",
+    !taxable(p2Taxed) && !taxable(p3Taxed));
+```
+The expression `!taxable(p2Taxed) && !taxable(p3Taxed)` is logically 
+equal to !(taxable(p2Taxed) || taxable(p3Taxed)).

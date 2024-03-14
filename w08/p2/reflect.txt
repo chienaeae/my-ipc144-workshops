@@ -1,0 +1,52 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : Chia-Yu Chien
+Student ID#: 157049222
+Email      : cchien8@myseneca.ca
+Section    : NCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. 
+  The `convertLbsToKg` functions returns the result in two ways. One is by return value, and 
+the other one is by pointer argument. "Return value" allows the caller to capture the 
+conversion result directly when the function is called. "By pointer argument" will directly 
+modify the value that the pointer points to. The caller then can use the converted value in 
+a variable that exists outside the function's scope.
+
+  If we want to revise this function, break this out into two separate functions, there are 
+examples below: 
+
+  a. 
+  ``` 
+    double convertLbsToKg(double lbs);
+  ```
+
+  b.
+  ``` 
+    void convertLbsToKgPtr(double lbs, double* kg);
+  ```
+
+2.
+  The `convertLbsKg`, `convertLbsG`, and `convertLbs` are good examples of high cohesion because it 
+has a single purpose. Their responsibilities are independent and focused, so that made them 
+easily understandable and reusable.
+
+  The `calculateReportData`, `getCatFoodInfo` are loosely coupled example. They operate independently 
+of other specific pre-defined functions or user-defined structuresin the system. Also, they 
+perform a calculation, and provides outputs without relying on the internal state.
+
+3.
+  Seperating header file and source file from the source code can help the development to easily 
+organize a large codebase. With a good organization of source code, devolopers can quickly find the 
+location of the code they are looking for. Take workshop as an example, we have a `w8p2.h` to define 
+the function prototypes. We can simply include the header file to be able to use this function. If 
+those implementation needs to be altered, we can locate those implementation very fast then. With 
+whcih, we foster the separatio nof concerns and make the source code more modular.
+
+
